@@ -10,6 +10,7 @@ body{
 
 #wrap{
     height: 100%;
+    position: relative;
 
 }
 
@@ -246,12 +247,35 @@ body{
 }
 
 .footer{
-
+    margin-top: 1485px;
 }
 
-.box1{
-    width: 1874px;
+.box1{   
+    width: 1920px;
     height: 63px;
     background-color: #4e4d4b;
     color: white;
+    text-align: center;
+    line-height: 63px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fix{
+    position: absolute;
+    position: fixed;
+    top: 160px;
+    right: 40px;
+}
+.fix a img{
+    display: block;
+}
+
+.fix2{
+    position: absolute;
+    position: fixed;
+    top: 770px;
+    right: 40px;
+}
+.fix2 a img{
+    display: block;
 }
